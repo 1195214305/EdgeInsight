@@ -19,8 +19,6 @@ import {
   RefreshCw,
   Sparkles,
   TrendingUp,
-  PieChart,
-  LineChart,
   Layers,
   Zap
 } from 'lucide-react'
