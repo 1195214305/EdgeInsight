@@ -307,9 +307,9 @@ const HomePage = () => {
                 <ArrowRight className="w-4 h-4 text-dark-600" />
                 <span className="px-3 py-1.5 rounded bg-primary-500/20 text-primary-400">ESA CDN</span>
                 <ArrowRight className="w-4 h-4 text-dark-600" />
-                <span className="px-3 py-1.5 rounded bg-accent-teal/20 text-accent-teal">边缘函数</span>
+                <span className="px-3 py-1.5 rounded bg-accent-orange/20 text-accent-orange">边缘函数</span>
                 <ArrowRight className="w-4 h-4 text-dark-600" />
-                <span className="px-3 py-1.5 rounded bg-accent-cyan/20 text-accent-cyan">通义千问</span>
+                <span className="px-3 py-1.5 rounded bg-accent-teal/20 text-accent-teal">通义千问</span>
               </div>
             </div>
           </section>

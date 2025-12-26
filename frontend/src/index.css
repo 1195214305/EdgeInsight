@@ -44,7 +44,7 @@
   }
 
   .gradient-text {
-    @apply bg-gradient-to-r from-primary-400 via-accent-teal to-accent-cyan bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-primary-400 via-primary-500 to-accent-orange bg-clip-text text-transparent;
   }
 
   .gradient-border {
@@ -54,7 +54,7 @@
   .gradient-border::before {
     content: '';
     @apply absolute inset-0 rounded-2xl p-[1px];
-    background: linear-gradient(135deg, #10b981, #14b8a6, #22d3ee);
+    background: linear-gradient(135deg, #f59e0b, #ea580c, #d97706);
     -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
     mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
     -webkit-mask-composite: xor;
@@ -90,8 +90,8 @@
 
   .data-grid {
     background-image:
-      linear-gradient(to right, rgba(16, 185, 129, 0.05) 1px, transparent 1px),
-      linear-gradient(to bottom, rgba(16, 185, 129, 0.05) 1px, transparent 1px);
+      linear-gradient(to right, rgba(245, 158, 11, 0.04) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(245, 158, 11, 0.04) 1px, transparent 1px);
     background-size: 40px 40px;
   }
 
@@ -102,7 +102,7 @@
   .glow-effect::after {
     content: '';
     @apply absolute inset-0 rounded-2xl opacity-0 transition-opacity duration-300;
-    background: radial-gradient(circle at center, rgba(16, 185, 129, 0.15), transparent 70%);
+    background: radial-gradient(circle at center, rgba(245, 158, 11, 0.15), transparent 70%);
   }
 
   .glow-effect:hover::after {
@@ -153,8 +153,8 @@
     0deg,
     transparent,
     transparent 40px,
-    rgba(16, 185, 129, 0.03) 40px,
-    rgba(16, 185, 129, 0.03) 41px
+    rgba(245, 158, 11, 0.02) 40px,
+    rgba(245, 158, 11, 0.02) 41px
   );
   animation: dataFlow 20s linear infinite;
 }
@@ -180,7 +180,7 @@
   position: absolute;
   width: 4px;
   height: 4px;
-  background: linear-gradient(135deg, #10b981, #22d3ee);
+  background: linear-gradient(135deg, #f59e0b, #ea580c);
   border-radius: 50%;
   opacity: 0.6;
   animation: float 8s ease-in-out infinite;
@@ -205,6 +205,6 @@
 .chart-container::before {
   content: '';
   @apply absolute inset-0 rounded-2xl;
-  background: linear-gradient(135deg, rgba(16, 185, 129, 0.05), transparent 50%);
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.05), transparent 50%);
   pointer-events: none;
 }

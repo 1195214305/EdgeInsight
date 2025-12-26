@@ -304,7 +304,7 @@ const WorkspacePage = () => {
                 <div>
                   <div className="text-xs text-dark-500 uppercase tracking-wider mb-3 flex items-center gap-2">
                     <span>快速统计</span>
-                    <Sparkles className="w-3 h-3 text-accent-cyan" />
+                    <Sparkles className="w-3 h-3 text-primary-400" />
                   </div>
                   <div className="space-y-3">
                     {stats.map((stat) => (
@@ -317,7 +317,7 @@ const WorkspacePage = () => {
                           </div>
                           <div className="p-2 rounded-lg bg-dark-900/50">
                             <div className="text-xs text-dark-500 mb-1">平均</div>
-                            <div className="text-sm font-semibold text-accent-cyan">{formatNumber(stat.avg)}</div>
+                            <div className="text-sm font-semibold text-accent-orange">{formatNumber(stat.avg)}</div>
                           </div>
                         </div>
                       </div>
@@ -515,7 +515,7 @@ const WorkspacePage = () => {
                             </div>
                             <div>
                               <div className="text-dark-500">平均</div>
-                              <div className="text-lg font-semibold text-accent-cyan">{formatNumber(stat.avg)}</div>
+                              <div className="text-lg font-semibold text-accent-teal">{formatNumber(stat.avg)}</div>
                             </div>
                             <div>
                               <div className="text-dark-500">最大</div>
