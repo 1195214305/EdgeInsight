@@ -507,7 +507,7 @@ const AIChatPanel = ({ onChartGenerated, apiKey, onNeedApiKey }: AIChatPanelProp
                 className={`flex gap-3 ${msg.role === 'user' ? 'justify-end' : ''}`}
               >
                 {msg.role === 'assistant' && (
-                  <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary-500 to-accent-cyan flex items-center justify-center flex-shrink-0">
+                  <div className="w-8 h-8 rounded-lg bg-primary-500 flex items-center justify-center flex-shrink-0">
                     <Sparkles className="w-4 h-4 text-white" />
                   </div>
                 )}
@@ -565,7 +565,7 @@ const AIChatPanel = ({ onChartGenerated, apiKey, onNeedApiKey }: AIChatPanelProp
             animate={{ opacity: 1 }}
             className="flex gap-3"
           >
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary-500 to-accent-cyan flex items-center justify-center">
+            <div className="w-8 h-8 rounded-lg bg-primary-500 flex items-center justify-center">
               <Loader2 className="w-4 h-4 text-white animate-spin" />
             </div>
             <div className="bg-dark-800 rounded-2xl px-4 py-3">

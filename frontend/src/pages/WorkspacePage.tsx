@@ -181,7 +181,7 @@ const WorkspacePage = () => {
           </button>
           <div className="h-6 w-px bg-dark-700" />
           <div className="flex items-center gap-3">
-            <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-primary-500 to-accent-cyan flex items-center justify-center shadow-lg shadow-primary-500/20">
+            <div className="w-9 h-9 rounded-xl bg-primary-500 flex items-center justify-center shadow-lg shadow-primary-500/20">
               <Activity className="w-5 h-5 text-white" />
             </div>
             <div>

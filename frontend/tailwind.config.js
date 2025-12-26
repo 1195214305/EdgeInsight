@@ -8,18 +8,19 @@ export default {
   theme: {
     extend: {
       colors: {
+        // 主色调改为青绿色系，更专业、更清新
         primary: {
-          50: '#eef2ff',
-          100: '#e0e7ff',
-          200: '#c7d2fe',
-          300: '#a5b4fc',
-          400: '#818cf8',
-          500: '#6366f1',
-          600: '#4f46e5',
-          700: '#4338ca',
-          800: '#3730a3',
-          900: '#312e81',
-          950: '#1e1b4b',
+          50: '#ecfdf5',
+          100: '#d1fae5',
+          200: '#a7f3d0',
+          300: '#6ee7b7',
+          400: '#34d399',
+          500: '#10b981',
+          600: '#059669',
+          700: '#047857',
+          800: '#065f46',
+          900: '#064e3b',
+          950: '#022c22',
         },
         dark: {
           50: '#f8fafc',
@@ -35,11 +36,11 @@ export default {
           950: '#020617',
         },
         accent: {
-          cyan: '#06b6d4',
-          purple: '#a855f7',
-          pink: '#ec4899',
-          orange: '#f97316',
-          green: '#22c55e',
+          cyan: '#22d3ee',
+          teal: '#14b8a6',
+          blue: '#3b82f6',
+          amber: '#f59e0b',
+          rose: '#f43f5e',
         }
       },
       fontFamily: {
@@ -63,8 +64,8 @@ export default {
           '50%': { transform: 'translateY(-20px)' },
         },
         glow: {
-          '0%': { boxShadow: '0 0 20px rgba(99, 102, 241, 0.3)' },
-          '100%': { boxShadow: '0 0 40px rgba(99, 102, 241, 0.6)' },
+          '0%': { boxShadow: '0 0 20px rgba(16, 185, 129, 0.3)' },
+          '100%': { boxShadow: '0 0 40px rgba(16, 185, 129, 0.6)' },
         },
         dataFlow: {
           '0%': { transform: 'translateY(0)' },
@@ -73,7 +74,7 @@ export default {
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'grid-pattern': 'linear-gradient(to right, rgba(99, 102, 241, 0.1) 1px, transparent 1px), linear-gradient(to bottom, rgba(99, 102, 241, 0.1) 1px, transparent 1px)',
+        'grid-pattern': 'linear-gradient(to right, rgba(16, 185, 129, 0.08) 1px, transparent 1px), linear-gradient(to bottom, rgba(16, 185, 129, 0.08) 1px, transparent 1px)',
       },
       backgroundSize: {
         'grid': '40px 40px',
